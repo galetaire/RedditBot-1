@@ -1,9 +1,9 @@
 # automissatge
     type: submission
     author:
-        name: ['Merkaartor', 'SoulBK', 'Liface']
+        name: ['username']
     title (includes): ['Mots encreuats']
-    comment: | 
+    comment: |
    Benvinguts/des a mots encreuats!
 
    * La resposta ha d'estar al principi `Num=Paraula`, exemple, `2=Cotxe i text opcional`.
@@ -29,13 +29,13 @@
 # pendents
     type: comment
     body (starts-with): ["Pendent:", "Pendents:"]
-    parent_submission: 
+    parent_submission:
            set_flair: ["{{body}}"]
            overwrite_flair: true
 ---
 # ordre comentaris nous
     type: submission
     author:
-        name: ['Merkaartor', 'SoulBK', 'Liface']
+        name: ['username']
     title(includes): ['Mots encreuats']
     set_suggested_sort: new
