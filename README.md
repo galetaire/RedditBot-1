@@ -1,13 +1,15 @@
-RedditBot
-=========
+# Sobre Yaml scripts
 
-A simple Reddit bot in Python.
+Repositori amb scripts pel bot de reddit u/Automoderator. Per a preguntes podeu contactar amb la moderació de:
 
-A software bot is a program that can interact with websites autonomously. They can be as simple or as complex as you want them to be.
+- https://catalunya.reddit.com.
 
-The bot runs in the background and monitors a website. When it sees a change (like a post on Reddit), it can reply to it, upvote, or do any other task it was programmed to.
+# Sobre python Catsongbot
 
+El bot és un fork modificat del fet per:
 
-To learn how to build this bot, please see:
+- https://github.com/shantnu
+
+A més a més del repositori, podeu visitar el seu tutorial:
 
 http://pythonforengineers.com/build-a-reddit-bot-part-1/
