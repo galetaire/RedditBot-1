@@ -1,0 +1,41 @@
+# automissatge
+    type: submission
+    author:
+        name: ['Merkaartor', 'SoulBK', 'Liface']
+    title (includes): ['Mots encreuats']
+    comment: | 
+   Benvinguts/des a mots encreuats!
+
+   * La resposta ha d'estar al principi `Num=Paraula`, exemple, `2=Cotxe i text opcional`.
+   * Només una resposta per comentari, si voleu fer 3 respostes, calen 3 comentaris.
+   * La paraula secreta surt d'organitzar les lletres subratllades en taronja.
+   * Qui encerti la paraula secreta se'n durà un mes de reddit premium i 700 monedes.
+---
+# paraules
+    type: comment
+    body (starts-with): ['1=Clot', '2=Aplec', '3=Altiplà', '4=Glacera', '5=Brega', '6=Peatge', '7=Tuf', '8=Maonesa', '9=Tempesta', '10=Rebesnets']
+    comment: La teva resposta és correcta!
+    ---
+# paraula secreta
+    type: comment
+    body (starts-with): ['11=Rebesnets']
+    comment: Enhorabona, has encertat la paraula secreta!
+---
+# solucions
+    type: comment
+    body (includes): ['solució', 'solucions']
+    comment: Les solucions són >!'1=Clot', '2=Aplec', '3=Altiplà', '4=Glacera', '5=Brega', '6=Peatge', '7=Tuf', '8=Maonesa', '9=Tempesta', '10=Rebesnets'!<
+---
+# pendents
+    type: comment
+    body (starts-with): ["Pendent:", "Pendents:"]
+    parent_submission: 
+           set_flair: ["{{body}}"]
+           overwrite_flair: true
+---
+# ordre comentaris nous
+    type: submission
+    author:
+        name: ['Merkaartor', 'SoulBK', 'Liface']
+    title(includes): ['Mots encreuats']
+    set_suggested_sort: new

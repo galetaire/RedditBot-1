@@ -12,4 +12,4 @@ El bot és un fork modificat del fet per:
 
 A més a més del repositori, podeu visitar el seu tutorial:
 
-http://pythonforengineers.com/build-a-reddit-bot-part-1/
+- http://pythonforengineers.com/build-a-reddit-bot-part-1/
