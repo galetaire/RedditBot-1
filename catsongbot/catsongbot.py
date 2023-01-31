@@ -31,11 +31,11 @@ llista_musical = \
 ]
 
 # Resposta del bot
-subreddit = reddit.subreddit("eivissa")
+subreddit = reddit.subreddit("catalunya")
 for comment in subreddit.stream.comments():
     if comment.id not in comments_replied_to:
-        if re.search("test", comment.body, re.IGNORECASE):
-            llista_reply = "Canço recomanada: " + random.choice(llista_musical)
+        if re.search("cançó!", comment.body, re.IGNORECASE):
+            llista_reply = "Cançó recomanada: " + random.choice(llista_musical)
             comment.reply(llista_reply)
             comments_replied_to.append(comment.id)
             with open("catsongbot_replied_to.txt", "w") as f:
