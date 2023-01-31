@@ -41,5 +41,3 @@ for comment in subreddit.stream.comments():
             with open("catsongbot_replied_to.txt", "w") as f:
                 for comment_id in comments_replied_to:
                     f.write(comment_id + "\n")
-
-print("File location using os.getcwd():", os.getcwd())
