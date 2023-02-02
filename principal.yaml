@@ -60,14 +60,7 @@
         set_original_content: true
     message: El fil que ens has indicat s'ha marcat com a contingut original (OC). Gràcies per ajudar-nos a mantenir la comunitat ordenada. *Acció emesa per {{author}} - Col·laborador aprovat.*
 ---
-# (8) Filtrar els posts de half Chinese half Filipino.
-    type: submission
-    title (includes): ['half Chinese half Filipino', 'Filipino']
-    action: remove
-    comment_stickied: true
-    modmail: El següent ítem publicat per /u/{{author}} ha estat filtrat per potencial spam. Aproveu-lo si és adequat.
----
-# (9) Assignar bandereta de AMA oficial a autor confirmat
+# (8) Assignar bandereta de AMA oficial a autor confirmat
     type: submission
     author:
         name: ['user1']
@@ -76,3 +69,10 @@
     overwrite_flair: true
     set_flair:
        template_id: 4298299e-46ea-11e9-a17c-0e43fd74a070
+---
+# (9) Filtrar els posts de half Chinese half Filipino.
+    type: submission
+    title (includes): ['half Chinese half Filipino', 'Filipino']
+    action: remove
+    comment_stickied: true
+    modmail: El següent ítem publicat per /u/{{author}} ha estat filtrat per potencial spam. Aproveu-lo si és adequat.
