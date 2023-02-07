@@ -1,5 +1,5 @@
 ---
-# Moreneta1
+# Paraula correcta i actualitzacio de la flair del fil
     type: comment
     body (includes-word): ['paraula=test']
     is_top_level: true
@@ -8,10 +8,10 @@
         overwrite_flair: true
         set_flair: ['{{author}} ha fet sonar el Virolai!']
         set_locked: true
-    comment: | 
+    comment: |
         {{author}} has emocionat el cor de la Moreneta!, en recompensa [ella t'acollirà eternament a la seva glòria!](https://i.redd.it/9lta7hv53yq51.png) Ah!, i també et donarà [100 reddit coins!](https://www.youtube.com/watch?v=7-Fkh3mUqWY)
 ---
-# Moreneta2
+# Paraules no correctes, pero que retornen un missatge simpatic
     type: comment
     body (includes-word): ['paraula=Montserrat', 'paraula=catalana', 'paraula=terra', 'paraula=angelets', 'paraula=reina', 'paraula=morena']
     is_top_level: true

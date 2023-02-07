@@ -76,3 +76,12 @@
     action: remove
     comment_stickied: true
     modmail: El següent ítem publicat per /u/{{author}} ha estat filtrat per potencial spam. Aproveu-lo si és adequat.
+    ---
+# (9) Filtrar els posts d'aquells amb <-99 de karma a r/Catalunya.
+    type: comment
+    author:
+        combined_subreddit_karma: "< -99"
+    action: remove
+    comment: Aquest usuari acumula massa vots negatius a r/Catalunya.
+    message: El teu usuari ha rebut massa vots negatius a r/Catalunya i els teus comentaris han quedat permanentment bloquejats dins la comunitat. Amb tot, no està tot perdut, [aquí tens més informació]() del perquè i les opcions per tornar a participar lliurement a la comunitat.
+    modmail: L'usuari /u/{{author}} està en la llista de karma negatiu (-99).
